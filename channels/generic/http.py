@@ -1,5 +1,9 @@
 from channels.consumer import AsyncConsumer
 
+from ..exceptions import (
+    StopConsumer,
+)
+
 
 class AsyncHttpConsumer(AsyncConsumer):
     """
